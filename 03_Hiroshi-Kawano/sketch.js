@@ -32,10 +32,10 @@ function setup() {
 
     gap = 0; // gap between each rectangle
 
-    gsize = 30 + gap; // gridsize
+    gsize = 120 + gap; // gridsize
 
     wMin = 1; // minimum block width
-    wMax = 10; // max block width
+    wMax = 30; // max block width
 
     colorMin = 0; // color range start
     colorMax = 5; /// color range end
