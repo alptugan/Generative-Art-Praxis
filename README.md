@@ -16,3 +16,5 @@ This page includes Generative Art #P5JS sketches and aims to research for myself
 [DAT GUI JS (Included already)](https://github.com/dataarts/dat.gui)
 
 [P5.JS-Export (Included already)](https://github.com/drskullster/p5.js-export)
+
+[P5JS.Utils (Included already - WIP)](https://#)
