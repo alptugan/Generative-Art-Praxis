@@ -41,8 +41,6 @@ function setup() {
     var location = window.location.pathname;
     var path = location.substring(0, location.lastIndexOf("/"));
     var directoryName = path.substring(path.lastIndexOf("/") + 1);
-
-    print(getDirectory());
 }
 
 function draw() {
