@@ -14,7 +14,7 @@ This page includes Generative Art #P5JS sketches and aims to research for myself
 
 [Anni Albers' "Intaglio II" 1976](https://github.com/alptugan/Generative-Art-Praxis/tree/main/05_Annie_Albers-Intaglio_II-1976) | [Lego Mosaic Generator](https://github.com/alptugan/Generative-Art-Praxis/tree/main/06_ImageProcessing_Lego_Brick) | [...](#)
 ------------- | ------------- | -------------
-![](05_Annie_Albers-Intaglio_II-1976/export/ss.png)  | ![](#) | ![](#)
+![](05_Annie_Albers-Intaglio_II-1976/export/ss.png)  | ![](06_ImageProcessing_Lego_Brick/ss.jpg) | ![](#)
 
 
 ## Required Libraries
