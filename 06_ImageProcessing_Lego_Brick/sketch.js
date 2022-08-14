@@ -2,11 +2,11 @@ var brickSrc = "brick.png";
 var grid;
 var img;
 var gridSz;
-var scl = 1;
+var scl = 0.75;
 
 function preload() {
   grid = loadImage(brickSrc);
-  img = loadImage("img.png");
+  img = loadImage("img2.jpg");
 }
 
 function setup() {
@@ -14,9 +14,12 @@ function setup() {
 
   gridSz = grid.width * scl;
 
-  var numRow = floor(img.height / floor(gridSz * scl));
+  var numRow = (img.height / (gridSz));
+  var numCol = (img.width / (gridSz));
 
-  resizeCanvas(img.width, numRow * floor(gridSz * scl));
+  resizeCanvas(
+    numCol * (gridSz),
+    numRow * (gridSz));
   noLoop();
 }
 
@@ -29,8 +32,8 @@ function draw() {
   noStroke();
 
   img.loadPixels();
-  for (var y = 0; y < height; y += gridSz * scl) {
-    for (var x = 0; x < width; x += gridSz * scl) {
+  for (var y = 0; y < height; y += gridSz) {
+    for (var x = 0; x < width; x += gridSz) {
       let index = (x + y * width) * 4;
 
       let pix = img.get(x, y);
@@ -41,7 +44,7 @@ function draw() {
       // draw rectangle
       //rect(x, y, gridSz, gridSz);
       tint(red(pix), green(pix), blue(pix), 255);
-      image(grid, x, y, gridSz * scl, gridSz * scl);
+      image(grid, x, y, gridSz, gridSz);
     }
   }
   img.updatePixels();
