@@ -36,12 +36,12 @@ function setup() {
   // Do not repeat draw() function
   // noLoop();
 
-  colNum = 5;
-  rowNum = 7;
+  colNum = 22;
+  rowNum = 26;
   total = colNum * rowNum;
   gridW = width - 150;
   gridH = height - 300;
-  debug = true;
+  debug = false;
 
   grid = utils.createGrid(
     rowNum,
@@ -59,7 +59,7 @@ function setup() {
     var y = grid[i].y;
     var sz = grid[i].w;
 
-    var rMult = random(1, 1.002);
+    var rMult = random(0.5, 0.52);
     var typeId = 1 + floor(abs(sin(x * 0.1524 + y * rMult)) * 6);
     // print(typeId);
     var s = new GridItem(typeId, i, x, y, sz);
