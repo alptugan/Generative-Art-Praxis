@@ -16,6 +16,9 @@ This page includes Generative Art #P5JS sketches and aims to research for myself
 ------------- | ------------- | -------------
 ![](05_Annie_Albers-Intaglio_II-1976/export/ss.png)  | ![](06_ImageProcessing_Lego_Brick/ss.jpg) | ![](07_Annie_Albers-Intaglio_IV-1976/export/sss.jpg)
 
+[Vera Molnar's "Hypertransformations" 1976](https://github.com/alptugan/Generative-Art-Praxis/tree/main/08_Vera-Molnar_Hypertransformations-1976) | [Upcoming](#) | [Upcoming](#)
+------------- | ------------- | -------------
+![](08_Vera-Molnar_Hypertransformations-1976/export/Vera_Molnar_ss.jpg)  | ![](...) | ![](...)
 
 ## Required Libraries
 [DAT GUI JS (Included already)](https://github.com/dataarts/dat.gui)
