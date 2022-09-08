@@ -48,7 +48,6 @@ function setup() {
     colNum,
     gridW,
     gridH,
-    true,
     0,
     GRID.SQUARE,
     true,
